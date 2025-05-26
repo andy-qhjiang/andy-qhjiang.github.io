@@ -50,7 +50,6 @@ You can use `conda` commands from another active environment (usually `base`) to
 *   `conda env list`: List all environments.
 *   `conda activate <env_name>`: Activate an environment.
 *   `conda env remove --name <env_name>`: Remove an environment.
-*   `conda create --clone <existing> --name <new>`: Clone an environment.
 *   `conda list --name <env_name>`: List packages in an environment.
 *   `conda env export --name <env_name> > file.yml`: Export environment specification.
 
@@ -79,13 +78,3 @@ Use `conda env export` to create an `environment.yml` file and `conda env create
 
 ---
 
-## 4. Removing Conda Environments
-
-**Question:** How do I remove an environment created in Conda?
-
-**Answer:**
-
-Use the `conda env remove` command:
-
-```bash
-conda env remove --name <environment_name>
