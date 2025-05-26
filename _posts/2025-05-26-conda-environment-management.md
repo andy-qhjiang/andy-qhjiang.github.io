@@ -41,7 +41,7 @@ date: 2025-05-26
 
 ## 2. Managing Conda Environments After Deactivation
 
-**Question:** How do I manage a Conda environment after deactivating it?
+**Question:** How do I manage a Conda environment?
 
 **Answer:**
 
