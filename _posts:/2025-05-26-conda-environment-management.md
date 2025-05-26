@@ -11,9 +11,9 @@ date: 2025-05-26
 ## Topics Covered:
 
 - Difference between `pip install` and `conda install`
-- Managing Conda environments after deactivation
+- Managing Conda environments
 - Replicating Conda environments on another PC
-- Removing Conda environments
+
 
 ---
 
