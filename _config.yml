@@ -210,6 +210,9 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
   syntax_highlighter_opts:
     css_class: "highlight"
     span:

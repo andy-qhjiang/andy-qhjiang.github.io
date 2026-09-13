@@ -20,7 +20,19 @@ After hesitating for a long time, I finally decided to write down a summary of m
 
 During my second year, my advisor tasked me with exploring a dynamic system problem over finite fields:
 
-> **(Conjecture)** For a polynomial $f = a_dx^d + a_{d-1}x^{d-1} + \dots + a_0 \in \mathbb{F}_{p}[X]$, assume $p$ is a large prime satisfying $d \mid (p-1)$ and $f^{\circ i}(0) \neq f^{\circ j}(0)$ for $0 \leq i, j \leq N$ where $N$ is an integer like $\lceil \frac{p}{20} \rceil$. Here, $f^{\circ i}$ denotes the $i$-fold composition $\underbrace{f \circ f \dots \circ f}_{i \text{ times}}$. The target was to prove that $\# f^{\circ N}(\mathbb{F}_p) \sim \frac{p}{(d-1)N}$.
+> **(Conjecture)** For a polynomial
+>
+> $$f = a_dx^d + a_{d-1}x^{d-1} + \dots + a_0 \in \mathbb{F}_{p}[X],$$
+>
+> assume $p$ is a large prime satisfying $d \mid (p-1)$ and
+>
+> $$f^{\circ i}(0) \neq f^{\circ j}(0) \quad\text{for } 0 \leq i,j \leq N,$$
+>
+> where $N$ is an integer like $\lceil \frac{p}{20} \rceil$. Here, $f^{\circ i}$ denotes the $i$-fold composition
+> $$\underbrace{f \circ f \dots \circ f}_{i \text{ times}}.$$
+>
+> The target was to prove that
+> $$\# f^{\circ N}(\mathbb{F}_p) \sim \frac{p}{(d-1)N}.$$
 
 *Note: The assumption $d \mid (p-1)$ and the final asymptotic formula were initial guesses, and my core task was to deduce the actual behavior of this dynamic system.*
 
