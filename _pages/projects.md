@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected open-source projects by Andy QH Jiang.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false

@@ -9,12 +9,18 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography %}
+<h2>Preprint</h2>
+
+{% bibliography --query @misc --group_by none %}
+
+<hr>
+
+<h2>Published</h2>
+
+{% bibliography --query @article --group_by none %}
 
 </div>
